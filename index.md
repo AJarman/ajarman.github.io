@@ -1,7 +1,7 @@
-# Andrew R. Jarman BSc (Hons)
+# Andrew R. Jarman BSc (Hons) {#title}
 
 ## Summary
-Data Scientist / Analyst with background in energy (power and gas) trading, pricing, hedging and risk management.
+### Data Scientist / Analyst, my background is in energy (power and gas) trading, pricing, hedging and risk management.
 
 I'm passionate about the environment, and I firmly believe leveraging data, technology and AI is fundamental to resolve our climate crisis and prevent full-scale environmental destruction.
 
