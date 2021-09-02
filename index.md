@@ -1,4 +1,4 @@
-# Andrew R. Jarman ![alt text](Portrait.jpg "Profile")
+# Andrew R. Jarman ![alt text](portrait.jpg "Portrait image")
 ## Summary
 ### Data Scientist / Analyst / Developer
 >My professional background is in energy (power and gas) trading, pricing, hedging and risk management.
