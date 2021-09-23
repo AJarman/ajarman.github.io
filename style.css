@@ -33,7 +33,7 @@ header, .content-box{
     -webkit-box-shadow: -5px -5px #ffc13b;
     box-shadow: -5px -5px #ffc13b;
     border-radius: 10px;
-    position:static;
+    display: flex;
 }
 header {
     display: grid;
