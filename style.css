@@ -3,7 +3,8 @@
 body {
     background-color: #F6f0e1;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: medium;
+    font-size: 12px;
+    font-size: 1.5vw;
 }
 
 h1 {
@@ -22,8 +23,8 @@ p {
 header, .content-box {
     background-color: #1e3d59;
     color: #F6f0e1;
-    padding: 20px;
-    margin: 20px;
+    padding: 5%;
+    margin: 5%;
     -moz-box-shadow: -5px -5px #ffc13b;
     -webkit-box-shadow: -5px -5px #ffc13b;
     box-shadow: -5px -5px #ffc13b;
@@ -31,30 +32,14 @@ header, .content-box {
 }
 
 header {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: stretch;
-}
-header .titles {
-    display: flex;
-    flex-flow: column nowrap;
-    flex-grow: 2;
-}
-header .blurb {
-    display: flex;
-    flex-flow: column nowrap;
-    flex-grow: 1;
-    font-size-adjust:unset;
-}
+    background:linear-gradient(0deg, rgba(30, 61, 89, 0.7), rgba(30, 61, 89, 0.7)), url("images/dan-mcdougall-laQmY9rKXaU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
 
-/* header h1, header h2 {} */
 
-header .portrait {
-    border-radius: 10%;
-    opacity: 75%;
-    padding: 10px;
-    max-width: 304px;
-    height: auto;
+
+    
 }
 
 .links {
