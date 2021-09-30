@@ -1,21 +1,9 @@
-/* Color Theme Swatches in Hex */
-
-.navy {
-    color: #1e3d59
-}
-
-.almond {
-    color: #F6f0e1
-}
-
-.red-orange {
-    color: #ff6e40
-}
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 body {
     background-color: #F6f0e1;
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: medium;
 }
 
 h1 {
@@ -44,7 +32,19 @@ header, .content-box {
 
 header {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+header .titles {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 2;
+}
+header .blurb {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    font-size-adjust:unset;
 }
 
 /* header h1, header h2 {} */
@@ -52,15 +52,15 @@ header {
 header .portrait {
     border-radius: 10%;
     opacity: 75%;
-    width: 40%;
     padding: 10px;
+    max-width: 304px;
+    height: auto;
 }
 
 .links {
     overflow: visible;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-flow: row wrap;
 }
 
 .links h2 {
@@ -76,6 +76,11 @@ header .portrait {
     margin-right: 10px;
     padding: 10px;
     display: flex;
+    flex-grow: 1;
+    
+}
+.links a:hover{
+    background-color:#F6f0e1;
 }
 
 .links img {
@@ -85,3 +90,36 @@ header .portrait {
 .moocs ul li {
     display: list-item;
 }
+
+
+.colorblock{
+    display: flex;
+    width:400px;
+}
+.box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #F6f0e1;
+    padding-left: 50px;
+    margin-right:50px;
+    margin-left: 25px;
+    clear: both;
+  }
+  
+  .red-orange {
+    background-color: #ff6e40;
+  }
+  
+  .almond {
+    background-color:#F6f0e1;
+  }
+  
+  .navy {
+    background-color:#1e3d59;
+  }
+  .yellow{
+      background-color: #ffc13b;
+  }
+  
