@@ -1,75 +1,58 @@
-/* Color Theme Swatches in Hex */
-
-.navy { color: #1e3d59}
-.almond {color: #F6f0e1}
-.red-orange {color:#ff6e40}
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-
 body {
     background-color: #F6f0e1;
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 12px;
+    font-size: 1.5vw;
 }
 
 h1 {
-  
     color: #ff6e40;
     display: inline;
-
 }
+
 h2 {
     color: #ffc13b;
 }
+
 p {
     text-align: justify;
 }
 
-header, .content-box{
+header, .content-box {
     background-color: #1e3d59;
     color: #F6f0e1;
-    padding: 20px;
-    margin: 20px;
+    padding: 5%;
+    margin: 5%;
     -moz-box-shadow: -5px -5px #ffc13b;
     -webkit-box-shadow: -5px -5px #ffc13b;
     box-shadow: -5px -5px #ffc13b;
     border-radius: 10px;
-    position:static;
-}
-header {
-    display: grid;
-}
-header h1, header h2 {
-    grid-column: 1;
 }
 
-header .portrait {
-    border-radius: 10%;
-    opacity: 75%;
-    width: 40%;
-    position:static;
-    top:20px;
-    right:20px;
-    padding:10px;
-    display: inline;
-    grid-column: 2;
-    grid-row: 1;
+header {
+    background:linear-gradient(0deg, rgba(30, 61, 89, 0.7), rgba(30, 61, 89, 0.7)), url("images/dan-mcdougall-laQmY9rKXaU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
     
-}
-header p {
-    grid-column-start: 1;
-    grid-column-end: 2;
+
+
+
+    
 }
 
 .links {
-    overflow:visible;
+    overflow: visible;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-flow: row wrap;
 }
-.links h2{
+
+.links h2 {
     margin-right: 10px;
 }
-.links a{
+
+.links a {
     color: #ff6e40;
     border: #F6f0e1;
     border-width: 1px;
@@ -78,15 +61,50 @@ header p {
     margin-right: 10px;
     padding: 10px;
     display: flex;
-
-}
-.links img {
-    height:64px;                    
-}
-
-.moocs ul li{
-    display: list-item;
+    flex-grow: 1;
     
 }
+.links a:hover{
+    background-color:#F6f0e1;
+}
+
+.links img {
+    height: 64px;
+}
+
+.moocs ul li {
+    display: list-item;
+}
 
 
+.colorblock{
+    display: flex;
+    width:400px;
+}
+.box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #F6f0e1;
+    padding-left: 50px;
+    margin-right:50px;
+    margin-left: 25px;
+    clear: both;
+  }
+  
+  .red-orange {
+    background-color: #ff6e40;
+  }
+  
+  .almond {
+    background-color:#F6f0e1;
+  }
+  
+  .navy {
+    background-color:#1e3d59;
+  }
+  .yellow{
+      background-color: #ffc13b;
+  }
+  
