@@ -3,7 +3,6 @@
 body {
     background-color: #F6f0e1;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 12px;
     font-size: 1.5vw;
 }
 
@@ -23,12 +22,12 @@ p {
 header, .content-box {
     background-color: #1e3d59;
     color: #F6f0e1;
-    padding: 5%;
-    margin: 5%;
-    -moz-box-shadow: -5px -5px #ffc13b;
-    -webkit-box-shadow: -5px -5px #ffc13b;
-    box-shadow: -5px -5px #ffc13b;
-    border-radius: 10px;
+    padding: 2em;
+    margin: 2em;
+    -moz-box-shadow: -1em -1em #ffc13b;
+    -webkit-box-shadow: -1em -1em #ffc13b;
+    box-shadow: -1em -1em #ffc13b;
+    border-radius: 2em;
 }
 
 header {
@@ -49,7 +48,7 @@ header {
 }
 
 .links h2 {
-    margin-right: 10px;
+    margin-right: 1em;
 }
 
 .links a {
@@ -57,9 +56,9 @@ header {
     border: #F6f0e1;
     border-width: 1px;
     border-style: dashed;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.5em;
     display: flex;
     flex-grow: 1;
     
@@ -69,7 +68,7 @@ header {
 }
 
 .links img {
-    height: 64px;
+    height: 3em;
 }
 
 .moocs ul li {
@@ -79,7 +78,7 @@ header {
 
 .colorblock{
     display: flex;
-    width:400px;
+    width:3em;
 }
 .box {
     float: left;
